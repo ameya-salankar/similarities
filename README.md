@@ -16,3 +16,4 @@ You need to install Flask to run this application
 
 ![similarities.png](https://imgur.com/PCPPrZy.png)
 ![Imgur](https://i.imgur.com/Wgk07Pk.png)
+![Imgur](https://i.imgur.com/vsSY0pS.png)
