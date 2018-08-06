@@ -8,19 +8,31 @@ def lines(a, b):
     set_a = set([])
     set_b = set([])
     st = ""
+    t = 0
+    ln_a = len(a)
+    ln_b = len(b)
 
     for i in a:
-    	if i == '\n':
+        t += 1
+        if (i == '\n' or t == ln_a):
+            if t == ln_a:
+                st += i
             set_a.add(st)
             st = ''
-    	else:
-    		st += i
+        else:
+            st += i
+
+    st = ''
+    t = 0
 
     for i in b:
-    	if i == '\n':
+        t += 1
+        if (i == '\n' or t == ln_b):
+            if t == ln_b:
+                st += i
             set_b.add(st)
             st = ''
-    	else:
+        else:
             st += i
 
     for i in set_a:
