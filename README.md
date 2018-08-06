@@ -13,3 +13,6 @@ You need to install Flask to run this application
 - execute ```./flask.sh```
 - copy the local link displayed in the terminal output
 - open the link in a browser
+
+![similarities.png](https://imgur.com/PCPPrZy.png)
+![Imgur](https://i.imgur.com/Wgk07Pk.png)
